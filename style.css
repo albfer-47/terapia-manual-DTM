@@ -22,7 +22,7 @@ body {
 
 .hero {
     background: linear-gradient(135deg, rgba(37, 99, 235, 0.35), rgba(29, 78, 216, 0.35)),
-                url('./images/pos-parto-background3.jpg') center center/cover no-repeat;
+                url('./images/foto-background-edit.jpg') center center/cover no-repeat;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -58,7 +58,7 @@ body {
 }
 
 .hero-subtitle {
-    font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+    font-size: clamp(1.3rem, 3vw, 1.8rem);
     line-height: 1.6;
     color: rgba(255, 255, 255, 0.95);
     margin-bottom: 40px;
@@ -833,7 +833,7 @@ body {
 /* Diferencial Section */
 .diferencial {
     background: linear-gradient(135deg, rgba(16, 185, 129, 0.35), rgba(5, 150, 105, 0.35)),
-                url('./images/foto-aula-pratica.jpg') center/cover no-repeat;
+                url('./images/foto-aula-dtm-edit.jpg') center/cover no-repeat;
     padding: 100px 20px;
     position: relative;
     color: white;
