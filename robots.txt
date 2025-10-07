@@ -1,0 +1,24 @@
+# robots.txt para terapia-manual-dtm.vercel.app
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://terapia-manual-dtm.vercel.app/sitemap.xml
+
+# Disallow common unnecessary paths (if you add them in the future)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*.xml$
+
+# Allow specific search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Crawl-delay (optional - helps with server load)
+# User-agent: *
+# Crawl-delay: 10
